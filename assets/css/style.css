@@ -70,7 +70,7 @@ nav a {
 .main {
     border: 1px solid #dddddd;
     margin-top: 20px;
-    min-height: 100%;
+    min-height: 80%;
 }
 
 .aboutMe {
@@ -82,12 +82,20 @@ hr {
     margin-right: 3%;
 }
 
-#mainContent {
+#profile {
     margin-left: 3%;
-    margin-right: 3%;
+    padding-top: 2%;
+    width: 30%;
+    float: left;
 }
 
-
+#mainContent {
+    float: right;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 60%;
+    font-size: 20px;
+}
 
 #footer {
     border-top: 8px solid #4aaaa5;
