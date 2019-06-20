@@ -1,0 +1,49 @@
+body {
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    /* background: #ffffff; */
+    background: beige;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+    padding: 45px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
